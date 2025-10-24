@@ -6,11 +6,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
+.body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+
   color: #333;
   line-height: 1.6;
 }
@@ -28,7 +28,7 @@ app-main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  align-content: center; 
+  align-content: center;
   background-color: var(--background-color);
 }
 
@@ -52,10 +52,10 @@ app-footer {
 /* Dispositivos móveis */
 @media (max-width: 480px) {
   body {
-   
+
     line-height: 1.5; /* Ajuste fino para melhor legibilidade */
   }
-  
+
   main {
     flex-direction: column;
     align-items: stretch;
