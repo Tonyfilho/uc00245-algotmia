@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { Home } from './pages/home/home';
+import { Home } from './pages/aula01/home';
 
 
 export const routes: Routes = [
